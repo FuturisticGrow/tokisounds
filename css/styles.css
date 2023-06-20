@@ -2,11 +2,6 @@
         font-family: 'Quicksand';
     }
     
-    body {
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    
     .bg-primary-color {
         background-color: #F4F4F9;
     }
