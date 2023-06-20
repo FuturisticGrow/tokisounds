@@ -239,6 +239,13 @@
     }
     /* INFO */
     
+    #feature-color {
+        font-family: 'Tilt Prism', cursive;
+        color: #68b147;
+        font-weight: bold;
+        font-size: small;
+    }
+    
     #info-content {
         margin-bottom: 4em;
         padding: 4em 1em;
