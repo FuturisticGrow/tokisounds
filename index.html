@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadados Info -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS DO PROJETO -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Titulo -->
+    <title>Toki Sounds</title>
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand primary-color">
+                <img class="tokiLogo" src="/img/TOKI-LOGO-ALPHA.png" alt="Toki">
+                <span class="nomeLabel">Toki Sounds</span>
+            </a>
+            <!-- MENU HAMBURGUER -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items " aria-controls="navbar-items " aria-expanded="false" aria-label="Toggle Navigation"> 
+                <i class="bi bi-node-plus"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item primary-color">
+                        <a href="#" class="nav-link active"><i class="bi bi-broadcast"></i></a>
+                    </li>
+                    <li class="nav-item primary-color">
+                        <a href="https://tokisounds.bandcamp.com/" class="nav-link" target="_blank">RELEASES</a>
+                    </li>
+                    <li class="nav-item primary-color">
+                        <a href="https://amplifyd.com/toki-sounds/featured" class="nav-link">SHOP</a>
+                    </li>
+                    <li class="nav-item primary-color">
+                        <a href="https://www.instagram.com/tokisounds/" class="nav-link">NEWS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- SLIDER -->
+    <div class="container" id="slider-container">
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">
+                </button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2">
+                </button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3">
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/1stslide.png" alt="info Toki" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5></h5>
+                        <a href="https://www.instagram.com/tokisounds/" class="btn btn-dark slide1" target="_blank">INSTAGRAM</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/futuristichumanstransparent.png" alt="Newest Release" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <a href="https://futuristicgrow.bandcamp.com/album/futuristic-humans" class="btn btn-dark" target="_blank">FUTURISTIC GROW ALBUM</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/growingpeopletransparent.png" alt="Old Release" class="d-block w-100">
+                    <div class="carousel-caption">
+
+                        <a href="https://futuristicgrow.bandcamp.com/album/growing-people" class="btn btn-dark" target="_blank">FUTURISTIC GROW EP</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev"> 
+                <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next"> 
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- MINI BANNERS -->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-journal-bookmark-fill primary-color"> </i>
+                        <div class="card-body">
+                            <h5 class="card-tile primary-color">OWNER LABEL INTERVIEW</h5>
+                            <p class="card-text secondary-color">Interviewed by Colors.dj, Brazil's Magazine.<br> Guide by Rodrigo Sobrinho.</p>
+                            <a href="http://colorsdj.com/coluna-futuristic-grow-um-passeio-pelo-psytrance-freeform-br/" class="btn btn-dark" target="_blank">Futuristic Grow Interview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-file-earmark-music primary-color"> </i>
+                        <div class="card-body">
+                            <h5 class="card-tile primary-color">UPCOMING RELEASES</h5>
+                            <p class="card-text secondary-color">Two more scheduled releases for 2023: "Free Plants" for August & "Friends of Future" for December.</p>
+                            <a href="https://www.instagram.com/tokisounds/" class="btn btn-dark" target="_blank">Music Previews</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-file-earmark-play primary-color"> </i>
+                        <div class="card-body">
+                            <h5 class="card-tile primary-color">SEND YOUR DEMO</h5>
+                            <p class="card-text secondary-color">Your music fits well with us? Upload at private SoundCloud & send us the link.</p>
+                            <a href="https://api.whatsapp.com/send?phone=5531998614876&text=Hi.%0AI%20want%20to%20send%20some%20demos%20to%20release%20in%20Toki%20Sounds." class="btn btn-dark">Demos per WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DESTAQUES -->
+    <div class="container" id="featured-container">
+        <div class="col-12">
+            <h2 class="title primary-color">Artists</h2>
+
+        </div>
+        <div class="col-12" id="featured-images">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <img src="/img/Otima4.jpg" alt="Futuristic Grow" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="secondary-color">Henrique Jardim</p>
+                        <h3>Futuristic Grow</h3>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/img/who.png" alt="artist2" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="secondary-color"></p>
+                        <h3>xxxx-xxxx</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/img/who.png" alt="artist3" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="secondary-color"></p>
+                        <h3>xxxx-xxxx</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/img/who.png" alt="artist4" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="secondary-color"></p>
+                        <h3>xxxx-xxxx</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/img/who.png" alt="artist5" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="secondary-color"></p>
+                        <h3>xxxx-xxxx</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/img/who.png" alt="artist6" class="img-fluid">
+                    <div class="banner-content">
+                        <p class="secondary-color"></p>
+                        <h3>xxxx-xxxx</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- INFO CONTAINER-->
+    <div class="container" id="info-container">
+        <div class="col-12">
+            <h2 class="title primary-color">Who are us</h2>
+            <p class="subtitle secondary-colors">Concepts, ideals and goals.</p>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-5" id="info-banner">
+                    <img src="/img/tokialpha.png" alt="informacoes da gravadora" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                    <div class="row">
+                        <div class="col-12 destaques">
+                            <h3 class="title secondary-color" id="no-border">We are a free-form oriented label with psy-trance as main genre.</h3>
+                            <p class="subtitle secondary-colors">Main visions of label<br> 1 - We live a time of opportunity. Thats the most important of the japanese concept called "Toki"
+                                <br>2 - We always bring a new flavor of psychedelic music. <br> We have goals like shake the psychedelic trance scenario in Brazil and world, giving some outstanding music, breaking patterns and bring new ideas to the parties.
+                                <br> <br>
+
+                            </p>
+                        </div>
+                        <div class="row" id="info-numbers">
+                            <div class="col-4">
+                                <h3 class="primary-color">2</h3>
+                                <p class="secondary-color">years of existence</p>
+                            </div>
+                            <div class="col-4">
+                                <h3 class="primary-color">16</h3>
+                                <p class="secondary-color">released musics</p>
+                            </div>
+                            <div class="col-4">
+                                <h3 class="primary-color">22</h3>
+                                <p class="secondary-color">reached countries</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <a href="https://tokisounds.bandcamp.com/" class="btn btn-dark">Toki Bandcamp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- FOOTER TOP-->
+                <div class="col-12" id="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-4">
+                            <h2>Toki Sounds</h2>
+                        </div>
+                        <div class="col-4" id="social-icons">
+                            <a href="https://instagram.com/tokisounds" target="_blank">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/tokisoundsbr/" target="_blank">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="https://twitter.com/toki_br?lang=en" target="_blank">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER DETAILS -->
+                <div class="col-12" id="footer-detail"></div>
+                <div class="row">
+                    <div class="col-12 col-md-4" id="news-container">
+                        <h4 class="primary-color">Stay tunned.</h4>
+                        <p class="secondary-color">Join our upcoming releases mail-list.</p>
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your E-mail">
+                            </div>
+                            <button class="btn btn-dark" type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-4" id="contact-container">
+                        <h4 class="primary-color">Contacts</h4>
+                        <p class="secondary-color">+55 (31) 9 986104876</p>
+                        <p class="secondary-color">futuristic@toki.life</p>
+                    </div>
+                    <div class="col-12 col-md-4" id="links-container">
+                        <div class="row">
+                            <h4 class="primary-color">You might want to know</h4>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <a href="#" class="secondary-color">Releases</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="secondary-color">Artists</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/p/CqdPh9BDDFo/" class="secondary-color"> "West-Psy minute"
+                                            Lui (Papos Psicodelicos)</a></li>
+                                    <li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FOOTER BOTTOM -->
+                    <div class="col-12" id="footer-bottom">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-md-3">
+                                <p class="secondary-color">Toki &copy; 2023</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <p class="secondary-color">always funky never funk <i class="bi bi-heart"></i></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </footer>
+    </div>
+
+</body>
+
+</html>
