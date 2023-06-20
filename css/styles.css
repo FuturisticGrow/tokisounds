@@ -300,6 +300,19 @@
     }
     /* FOOTER DETAILS */
     
+    #font-color-footer {
+        color: #F4F4F9;
+    }
+    
+    #font-color-footer2 {
+        color: #04724D;
+        font-weight: bold;
+    }
+    
+    #font-color-footer3 {
+        color: #e61e10;
+    }
+    
     #footer-details {
         margin-bottom: 3em;
     }
