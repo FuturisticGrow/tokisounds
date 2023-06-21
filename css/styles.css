@@ -279,6 +279,22 @@
     }
     /* VIDEOS */
     
+    #font-2-title {
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+    }
+    
+    #font-2-title2 {
+        font-family: 'Indie Flower', cursive;
+        font-size: 21px;
+    }
+    
+    #font-2-title3 {
+        font-family: 'Indie Flower', cursive;
+        font-size: 21px;
+        color: #e61e10;
+    }
+    
     #font-color-video {
         color: #586F7C;
         cursor: pointer;
@@ -328,6 +344,7 @@
     
     #font-color-footer3 {
         color: #e61e10;
+        font-family: 'Indie Flower', cursive;
     }
     
     #footer-details {
