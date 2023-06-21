@@ -277,6 +277,16 @@
         width: 100px;
         height: 100px;
     }
+    /* VIDEOS */
+    
+    #font-color-video {
+        color: #586F7C;
+        cursor: pointer;
+    }
+    
+    #videos-label a:hover {
+        color: #9e40e8;
+    }
     /* FOOTER */
     
     #footer {
