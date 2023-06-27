@@ -359,6 +359,14 @@
         margin-bottom: 2em;
     }
     
+    #contact-container a {
+        color: #B8DBD9;
+    }
+    
+    #contact-container a:hover {
+        color: #9e40e8;
+    }
+    
     #footer-details h4 {
         margin-bottom: 1.5em;
     }
